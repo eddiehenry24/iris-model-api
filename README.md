@@ -1,5 +1,13 @@
 # ML Model Deployment Example
 
+## How the Model Works
+
+The application uses a trained Random Forest classifier to predict Iris flower species based on four measurements: sepal length, sepal width, petal length, and petal width.
+
+When a user sends these measurements to the `/predict` endpoint, FastAPI passes them to the trained model. The model then returns a predicted flower species: setosa, versicolor, or virginica.
+
+The API can be tested using FastAPI's interactive documentation or an HTTP request.
+
 Complete code (including a trained model) to deploy and run inference with a machine learning model built on the Iris dataset using Docker and FastAPI.
 
 ## Getting Started
